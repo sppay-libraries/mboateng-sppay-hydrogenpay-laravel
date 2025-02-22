@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Mboateng\\HydrogenpayLaravel\\' => array($baseDir . '/src'),
+    'MBoateng\\Hydrogen\\' => array($baseDir . '/src'),
 );

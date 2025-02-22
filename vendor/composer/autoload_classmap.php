@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'MBoateng\\Hydrogen\\Hydrogen' => $baseDir . '/src/Hydrogen.php',
 );

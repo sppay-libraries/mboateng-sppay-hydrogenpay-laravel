@@ -9,12 +9,12 @@ class ComposerStaticInit104b51e1de137d5600cd63f45ba1b29e
     public static $prefixLengthsPsr4 = array (
         'M' => 
         array (
-            'Mboateng\\HydrogenpayLaravel\\' => 28,
+            'MBoateng\\Hydrogen\\' => 18,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Mboateng\\HydrogenpayLaravel\\' => 
+        'MBoateng\\Hydrogen\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -22,6 +22,7 @@ class ComposerStaticInit104b51e1de137d5600cd63f45ba1b29e
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'MBoateng\\Hydrogen\\Hydrogen' => __DIR__ . '/../..' . '/src/Hydrogen.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
